@@ -4,7 +4,7 @@ import pandas as pd
 data_x = input("introduza valores para teste\n")
 data = data_x.split(",")
 print(data)
-fmap_data = map(float, data)
+fmap_data = map(int, data)
 print(fmap_data)
 flist_data = list(fmap_data)
 print(flist_data)
