@@ -9,4 +9,3 @@ data_preparation = pd.DataFrame([flist_data])
 y_pred = loaded_model.predict(data_preparation)
 y_pred = y_pred.astype(int)
 print("Optical Recognition of Handwritten:", y_pred[0])
-
